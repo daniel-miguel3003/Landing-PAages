@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #3ea9f5;
+}
+
+.cabecalho {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-botao-login {
+    font-family: 'Libre Doni', serif;
+    width: 80px;
+    height: 35px;
+    background-color: #3ea9f5;
+    border-radius: 5px;
+    color: white;
+    border-color: whitesmoke;
+    font-size: 15px;
+    transition: all 2s ease;
+
+}
+
+.cabecalho-botao-login:hover {
+    cursor: pointer;
+    background-color: #3ea9f5;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.conteudo-titulo {
+    font-family: 'Open Sans' , sans-serif;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.conteudo-subtitulo {
+    font-family: 'Open Sans' , sans-serif;
+    color: #e0e0e1;
+    font-size: medium;
+    padding: 10px;
+}
+
+.botoes {
+    display: inline;
+    justify-content: center;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 250px;
+    height: 60px;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    border-color:#3ea9f5;
+}
+
+input[type=text]::placeholder {
+    color: rgb(82, 79, 79);
+}
+
+input[type=email] {
+    width: 250px;
+    height: 60px;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    border-color: #3ea9f5;
+}
+
+input[type=email]::placeholder {
+    color: rgb(82, 79, 79);
+
+}
+
+input[type=password] {
+    width: 250px;
+    height: 60px;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    border-color: #3ea9f5;
+}
+
+input[type=password]::placeholder {
+    color: rgb(82, 79, 79);
+}
+
+.conteudo-botao {
+    display:inline-block;
+    padding: 1px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.botao {
+    justify-content: center;
+}
+.create {
+    width: 508px;
+    height:50px;
+    background: #351293;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: all 2s ease;
+    border-color: #3ea9f5;
+}
+
+h4 {
+    font-family: 'Open Sans' , sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    color: grey;
+    text-decoration: underline;
+}
+
+.rodape {
+    background-color: white;
+    padding: 30px;
+}
+
+.footer-final {
+    display: flexbox;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragrafo {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.final {
+    display: flexbox;
+    text-align: center;
+}
+
+.paragrafo {
+    text-align: justify;
+    padding-left: 10px;
+    justify-items: center;
+}
+
+.final {
+    display: flexbox;
+    flex-direction: row;
+}
+
+
+
